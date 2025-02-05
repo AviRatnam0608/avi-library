@@ -6,12 +6,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
       <Button>Default</Button>
-      <Button variant="secondary">Secondary</Button>
-      <Button variant="outline">Outline</Button>
-      <Button variant="ghost">Ghost</Button>
-      <Button variant="link">Link</Button>
-      <Input placeholder="Type something..." />
-      <SearchInput value="Search..." />
+      <Button variant="darkening">Darkening</Button>
     </main>
   );
 }
